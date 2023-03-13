@@ -1,0 +1,25 @@
+/* Таким образом скрываем элемент от пользователей, но оставляем его доступным для прочтения роботами */
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+.hero {
+    min-height: 750px;
+    background: url('../img/Hero-min.jpg') no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.hero__container {
+    padding-top: 217px;
+}
+
+.hero__title {
+    font-size: 48px;
+    margin-bottom: 53px;
+}
+
+.hero__button {
+    padding: 11px 48px;
+}

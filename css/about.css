@@ -1,0 +1,42 @@
+.about {
+    background: #171616;
+    padding: 116px 0;
+    margin-bottom: 100px;
+}
+.about__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 182px;
+}
+
+.about__block {
+    max-width: 506px;
+}
+
+.about__title {
+    margin-bottom: 42px;
+}
+
+.about__text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.23em;
+    color: #B7B7B7;
+    margin-bottom: 48px;
+}
+
+.about__link {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+}
+
+.about__link:hover {
+    text-decoration-line: none;
+}
+
