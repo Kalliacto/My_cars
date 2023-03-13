@@ -168,9 +168,30 @@
         </section>
         <section class="contacts">
             <div class="container">
-                <h2 class="title">Contact us</h2>
+                <h2 class="title contacts__title">Contact us</h2>
                 <form class="contacts__form" action="#">
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input type="text" class="form__input" name="name" id="name" placeholder="">
+                            <label class="label" for="name">Name</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input" name="lastName" id="lastName" placeholder="">
+                            <label class="label" for="lastName">Last name</label>
+                        </div>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__group">
+                            <input type="email" class="form__input" name="Email" id="email" placeholder="">
+                            <label class="label" for="email">Email</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" class="form__input" name="lastName" id="lastName" placeholder="">
+                            <label class="label" for="lastName">Phone</label>
+                        </div>
+                    </div>
 
+                    <button type="submit" class="button form__button">Send</button>
                 </form>
             </div>
         </section>
