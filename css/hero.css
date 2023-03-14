@@ -23,3 +23,26 @@
 .hero__button {
     padding: 11px 48px;
 }
+
+/* Планшеты */
+@media (max-width: 1024px) {
+    .hero {
+        min-height: 650px;
+    }
+
+    .hero__title {
+        font-size: 40px;
+        margin-bottom: 45px;
+    }
+}
+
+ /* Мобильные устройства */
+@media (max-width: 720px)  {
+    .hero__container {
+        padding-top: 217px;
+    }
+    .hero__title {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+}

@@ -90,3 +90,36 @@
     color: #000000;
 }
 
+/* Планшеты */
+@media (max-width: 1024px) {
+    .services {
+        margin-bottom: 80px;
+    }
+    .services__content {
+        min-height: 400px;
+        
+    }
+    .services__title {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+ /* Мобильные устройства */
+@media (max-width: 720px)  {
+    .services {
+        margin-top: -30px;
+        margin-bottom: 60px;
+    }
+    .services__content {
+        margin-bottom: 10px;
+        min-height: 300px;
+    }
+    .services__card {
+        grid-column: span 3;
+        column-gap: 20px;
+    }
+    .services_link {
+        margin-bottom: 40px;
+    }
+}

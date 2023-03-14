@@ -84,6 +84,14 @@ img {
 	line-height: 150%;
 	color: #FFFFFF;
 	border: none;
+    cursor: pointer;
+    outline: 0;
+    transition: all .2s ease;
+}
+
+.button:hover {
+	background: #ff1900;
+    text-decoration: underline;
 }
 
 .title {
@@ -114,4 +122,54 @@ img {
 .card_text {
     color: #B7B7B7;
     margin-bottom: 37px;
+}
+
+/* Планшеты */
+@media (max-width: 1024px) {
+    .title {
+        font-size: 26px;
+    }
+    .wrapper__card {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .card_title {
+        margin-bottom: 10px;
+    }
+    .card_text {
+        margin-bottom: 35px;
+    }
+}
+
+ /* Мобильные устройства */
+@media (max-width: 720px)  {
+    .card_title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .card_text {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 380px)  {
+    .wrapper__cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .wrapper__card {
+        grid-column: span 3;
+        font-size: 14px;
+        line-height: 130%;
+    }
+    .card_title {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+    .card_text {
+        margin-bottom: 17px;
+    }
+
 }

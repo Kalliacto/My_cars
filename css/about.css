@@ -40,3 +40,34 @@
     text-decoration-line: none;
 }
 
+/* Планшеты */
+@media (max-width: 1024px) {
+    .about {
+        margin-bottom: 60px;
+        padding: 85px 15px;
+    }
+    .about__wrapper {
+        column-gap: 62px;
+    }
+    .about__title {
+        margin-bottom: 32px;
+    }
+}
+
+ /* Мобильные устройства */
+@media (max-width: 720px)  {
+    .about__wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-content: center;
+    }
+    .about__block {
+        /* text-align: center; */
+        max-width: 100%;
+    }
+    .about__img {
+        width: 100%; 
+    }
+}
+
+

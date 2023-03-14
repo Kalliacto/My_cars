@@ -26,3 +26,38 @@
     text-align: center;
     margin-bottom: 92px;
 }
+
+/* Планшеты */
+@media (max-width: 1024px) {
+    .work {
+        margin-bottom: 80px;
+    }
+    .work__blok_card {
+        padding: 20px 20px 0 20px;
+    }
+    
+    .work__title {
+        font-size: 78px;
+        margin-bottom: 38px;
+    }
+    .work__sub_title {
+        font-size: 32px;
+        margin-bottom: 62px;
+    }
+}
+
+ /* Мобильные устройства */
+@media (max-width: 720px)  {
+    .work {
+        margin-bottom: 65px;
+    }
+
+    .work__title {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .work__sub_title {
+        font-size: 26px;
+        margin-bottom: 42px;
+    }
+}

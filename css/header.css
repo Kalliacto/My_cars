@@ -15,7 +15,7 @@
 }
 
 .header__logo {
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 .header__logo:hover {
     transform: scale(1.2);
@@ -41,7 +41,7 @@
 }
 .header__menu-link {
     display: block;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 .header__menu-link:hover {
     transform: scale(1.2);
@@ -67,7 +67,7 @@
     line-height: 137%;
     text-transform: uppercase;
     color: #B7B7B7;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .header__lang_wrapper {

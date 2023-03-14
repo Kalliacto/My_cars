@@ -21,7 +21,8 @@
     position: relative;
 }
 .form__input {
-    padding:9px 0;
+    width: 100%;
+    padding: 9px 0;
     outline: 0;
     border: 0;
     border-bottom: 1px solid #FFFFFF;
@@ -32,9 +33,13 @@
 
 .form__input:focus + .label {
     transform: translateY(-15px);
-    font-size: 10PX;
+    font-size: 12px;
 }
 
+input:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
 
 .label {
     letter-spacing: 0.15em;
@@ -43,9 +48,48 @@
     top: 10px;
     left: 20px;
     pointer-events: none;
-    transition: .2s ease;
+    transition: all .2s ease;
 }
 
 .form__button {
     padding: 11px 75px;
+}
+
+.textarea {
+    min-height: 130px;
+    width: 100%;
+    padding: 9px 0;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.textarea:focus + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+    transform: translateY(-15px);
+    font-size: 12px;
+}
+
+/* Планшеты */
+@media (max-width: 1024px) {
+    
+}
+
+ /* Мобильные устройства */
+@media (max-width: 720px)  {
+    .contacts {
+        padding: 60px 0;
+    }
+    .contacts__title {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
 }
