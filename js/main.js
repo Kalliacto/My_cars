@@ -11,6 +11,28 @@
     }
 }());
 
+// Burger
+(function () {
+    const burger = document.querySelector('.burger');
+    const headerMenu = document.querySelector('.header__menu');
+    const burgerClose = document.querySelector('.header__burger-close');
+    const menuLinks = document.querySelectorAll('.header__menu-link');
+
+    burger.addEventListener('click', () => {
+        headerMenu.classList.add('header__menu_active');
+    })
+    burgerClose.addEventListener('click', () => {
+        headerMenu.classList.remove('header__menu_active');
+    })
+    if (window.innerWidth <= 720) {
+        for (let link of menuLinks) {
+            link.addEventListener('click', () => {
+                headerMenu.classList.remove('header__menu_active');
+            })
+        }
+    }
+}());
+
 // Scroll to anchors
 (function () {
 
