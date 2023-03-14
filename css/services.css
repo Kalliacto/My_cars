@@ -108,7 +108,7 @@
  /* Мобильные устройства */
 @media (max-width: 720px)  {
     .services {
-        margin-top: -30px;
+        margin-top: -50px;
         margin-bottom: 60px;
     }
     .services__content {

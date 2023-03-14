@@ -89,3 +89,13 @@
     z-index: 50;
     border-bottom: #B7B7B7 1px solid;
 }
+
+/* Планшеты */
+@media (max-width: 1024px) {
+    
+}
+
+ /* Мобильные устройства */
+@media (max-width: 720px)  {
+    
+}
