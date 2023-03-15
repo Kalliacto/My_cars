@@ -141,6 +141,7 @@ img {
     }
 }
 
+
  /* Мобильные устройства */
 @media (max-width: 720px)  {
     .card_title {
@@ -164,7 +165,6 @@ img {
     }
 }
 
-
 @media (max-width: 380px)  {
         .card_title {
         font-size: 10px;
@@ -175,3 +175,5 @@ img {
     }
 
 }
+
+
