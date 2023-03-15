@@ -82,6 +82,7 @@
 
 }());
 
+(function () {
     const animItems = document.querySelectorAll('.anim_items');
 
     if (animItems.length > 0) {
@@ -115,3 +116,4 @@
         }
         animationOnScroll();
     }
+}());
