@@ -16,7 +16,7 @@
     const burger = document.querySelector('.burger');
     const headerMenu = document.querySelector('.header__menu');
     const burgerClose = document.querySelector('.header__burger-close');
-    const menuLinks = document.querySelectorAll('.header__menu-item');
+    const menuLinks = document.querySelectorAll('.header__menu-list');
 
     burger.addEventListener('click', () => {
         headerMenu.classList.add('header__menu_active');
