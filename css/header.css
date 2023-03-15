@@ -59,9 +59,14 @@
     position: absolute;
     opacity: 0;
 } 
-.menu-link_active:after {
+/* .menu-link_active:after {
     opacity: 1;
+} */
+
+.is-active {
+    text-decoration: underline;
 }
+
 
 .header__lang {
     font-weight: 600;
@@ -70,6 +75,7 @@
     color: #B7B7B7;
     transition: all 0.3s ease;
 }
+
 
 .header__lang_wrapper {
     display: flex;
