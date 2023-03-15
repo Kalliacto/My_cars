@@ -72,3 +72,19 @@
     };
     scrollTo();
 }());
+
+// // Menu link active
+// (function () {
+//     const menuLinks = document.querySelectorAll('.header__menu-list');
+
+//     menuLinks.forEach(elem => {
+//         elem.addEventListener('click', (event) => {
+//             let link = event.target;
+//             if ( link.classList.contains('menu-link_active') ) {
+//                 link.classList.remove('menu-link_active');
+//             } else {
+//                 link.classList.add('menu-link_active');
+//             }
+//         })
+//     })
+// }());

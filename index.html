@@ -179,36 +179,42 @@
         <section class="contacts">
             <div class="container">
                 <h2 class="title contacts__title">Contact us</h2>
-                <form class="contacts__form" action="#">
-                    <div class="form__row">
-                        <div class="form__group">
-                            <input type="text" class="form__input" name="name" id="name" placeholder="">
-                            <label class="label" for="name">Name</label>
+                <div class="contact__block">
+                    <form class="contacts__form" action="#">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" class="form__input" name="name" id="name" placeholder="">
+                                <label class="label" for="name">Name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" name="lastName" id="lastName" placeholder="">
+                                <label class="label" for="lastName">Last name</label>
+                            </div>
                         </div>
-                        <div class="form__group">
-                            <input type="text" class="form__input" name="lastName" id="lastName" placeholder="">
-                            <label class="label" for="lastName">Last name</label>
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="email" class="form__input" name="Email" id="email" placeholder="">
+                                <label class="label" for="email">Email</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="tel" class="form__input" name="lastName" id="lastName" placeholder="">
+                                <label class="label" for="lastName">Phone</label>
+                            </div>
                         </div>
+                        <div class="form__row">
+                            <div class="form__group">
+                                <textarea class="textarea" placeholder="" id="textarea"></textarea>
+                                <label class="label" for="textarea">Message</label>
+                            </div>
+                        </div>
+                            
+                        <button type="submit" class="button form__button">Send</button>
+                    </form>
+                    <div class="map">
+                        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A33aedb259a0ffc3a68373e130f62cbb250f039bb3dacefb80b858ceeb0400c8a&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
                     </div>
-                    <div class="form__row">
-                        <div class="form__group">
-                            <input type="email" class="form__input" name="Email" id="email" placeholder="">
-                            <label class="label" for="email">Email</label>
-                        </div>
-                        <div class="form__group">
-                            <input type="tel" class="form__input" name="lastName" id="lastName" placeholder="">
-                            <label class="label" for="lastName">Phone</label>
-                        </div>
-                    </div>
-                    <div class="form__row">
-                        <div class="form__group">
-                            <textarea class="textarea" placeholder="" id="textarea"></textarea>
-                            <label class="label" for="textarea">Message</label>
-                        </div>
-                    </div>
-                        
-                    <button type="submit" class="button form__button">Send</button>
-                </form>
+                </div>
+                
             </div>
         </section>
     </main>
