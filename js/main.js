@@ -99,7 +99,7 @@
                     animItemPoint = window.innerHeight - window.innerHeight / animStart;
                 }
 
-                if ((animItemHeight > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+                if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
                     animItem.classList.add('_active');
                 } else {
                     animItem.classList.remove('_active');
