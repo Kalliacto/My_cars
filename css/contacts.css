@@ -86,14 +86,14 @@
     margin-top: 20px;
 }
 .file__preview {
+    padding: 10px;
+    margin-left: 30px;
     display: inline-block;
-    max-width: 100px;
+    max-width: 200px;
 }
 .file__preview img {
     width: 100%;
 }
-
-
 .checkbox__input {
     display: none;
 }
@@ -135,6 +135,36 @@
 
 .checkbox__label a {
     color: #DB2512;
+}
+
+.error {
+    border-bottom: #DB2512 2px solid;
+}
+
+.checkbox.error .checkbox__label::before {
+    border-bottom: #DB2512 2px solid;
+}
+
+.form__body {
+    position: relative;
+}
+
+.form__body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(51, 51, 51, 0.9) url('../img/loading-12.gif') center / 50px no-repeat; 
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+}
+
+.form__body.sending::before {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Планшеты */

@@ -181,31 +181,31 @@
             <div class="container">
                 <h2 class="title contacts__title ">Contact us</h2>
                 <div class="contact__block">
-                    <form class="contacts__form" action="#">
+                    <form class="contacts__form form__body" action="#" id="form">
                         <div class="form__row">
                             <div class="form__group">
-                                <input type="text" class="form__input" name="name" id="name" placeholder="">
+                                <input type="text" class="form__input _check" name="name" id="name" placeholder="">
                                 <label class="label" for="name">Name</label>
                             </div>
                             <div class="form__group">
-                                <input type="text" class="form__input" name="lastName" id="lastName" placeholder="">
+                                <input type="text" class="form__input _check" name="lastName" id="lastName" placeholder="">
                                 <label class="label" for="lastName">Last name</label>
                             </div>
                         </div>
                         <div class="form__row">
                             <div class="form__group">
-                                <input type="email" class="form__input" name="email" id="email" placeholder="">
+                                <input  class="form__input _check _email" type="email" name="email" id="email" placeholder="">
                                 <label class="label" for="email">Email</label>
                             </div>
                             <div class="form__group">
-                                <input type="tel" class="form__input" name="phone" id="lastName" placeholder="">
+                                <input type="tel" class="form__input _check" name="phone" id="phone" placeholder="">
                                 <label class="label" for="phone">Phone</label>
                             </div>
                         </div>
                         <div class="form__row">
                             <div class="form__group">
-                                <textarea class="textarea" placeholder="" id="textarea" name="textarea"></textarea>
-                                <label class="label" for="textarea">Message</label>
+                                <textarea class="textarea" id="message" name="message" placeholder="" ></textarea>
+                                <label class="label" for="message">Message</label>
                             </div>
                         </div>
                         <div class="form__row">
@@ -213,13 +213,14 @@
                                 <input class="file__input" type="file" accept=".jpg, .png, .gif" name="image" id="formImage">
                                 <label class="label" for="formImage">Attach your photo</label>
                                 <div class="file__button">Select</div>
+                                <div class="file__preview" id="formPreview"></div>
                             </div>
-                            <div class="file__preview"></div>
+                            
                         </div>
                         <div class="form__row">
                             <div class="form__group">
                                 <div class="checkbox">
-                                    <input class="checkbox__input" type="checkbox" name="agreement" id="formAgreement">
+                                    <input class="checkbox__input _check" type="checkbox" name="agreement" id="formAgreement">
                                     <label class="label checkbox__label" for="formAgreement">
                                         <span>I consent to the processing of personal data in accordance with <a href="#">Conditions</a>*</span>
                                     </label>
